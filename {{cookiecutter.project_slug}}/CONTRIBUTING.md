@@ -1,19 +1,13 @@
-.. highlight:: shell
-
-============
-Contributing
-============
+## Contributing
 
 Contributions are welcome, and they are greatly appreciated! Every little bit
 helps, and credit will always be given.
 
 You can contribute in many ways:
 
-Types of Contributions
-----------------------
+### Types of Contributions
 
-Report Bugs
-~~~~~~~~~~~
+#### Report Bugs
 
 Report bugs at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues.
 
@@ -23,27 +17,23 @@ If you are reporting a bug, please include:
 * Any details about your local setup that might be helpful in troubleshooting.
 * Detailed steps to reproduce the bug.
 
-Fix Bugs
-~~~~~~~~
+#### Fix Bugs
 
 Look through the GitHub issues for bugs. Anything tagged with "bug" and "help
 wanted" is open to whoever wants to implement it.
 
-Implement Features
-~~~~~~~~~~~~~~~~~~
+#### Implement Features
 
 Look through the GitHub issues for features. Anything tagged with "enhancement"
 and "help wanted" is open to whoever wants to implement it.
 
-Write Documentation
-~~~~~~~~~~~~~~~~~~~
+#### Write Documentation
 
 {{ cookiecutter.project_name }} could always use more documentation, whether as part of the
 official {{ cookiecutter.project_name }} docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
-Submit Feedback
-~~~~~~~~~~~~~~~
+#### Submit Feedback
 
 The best way to send feedback is to file an issue at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues.
 
@@ -54,8 +44,7 @@ If you are proposing a feature:
 * Remember that this is a volunteer-driven project, and that contributions
   are welcome :)
 
-Get Started!
-------------
+### Get Started!
 
 Ready to contribute? Here's how to set up `{{ cookiecutter.project_slug }}` for local development.
 
@@ -93,8 +82,8 @@ Ready to contribute? Here's how to set up `{{ cookiecutter.project_slug }}` for 
 
 7. Submit a pull request through the GitHub website.
 
-Pull Request Guidelines
------------------------
+
+## Pull Request Guidelines
 
 Before you submit a pull request, check that it meets these guidelines:
 
@@ -106,19 +95,17 @@ Before you submit a pull request, check that it meets these guidelines:
    https://travis-ci.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
-Tips
-----
+## Tips
 
 To run a subset of tests::
 
 {% if cookiecutter.use_pytest == 'y' -%}
-    $ pytest tests.test_{{ cookiecutter.project_slug }}
+    $ pytest tests.test_{{ cookiecutter.py_package }}
 {% else %}
-    $ python -m unittest tests.test_{{ cookiecutter.project_slug }}
+    $ python -m unittest tests.test_{{ cookiecutter.py_pacakge }}
 {%- endif %}
 
-Deploying
----------
+## Deploying
 
 A reminder for the maintainers on how to deploy.
 Make sure all your changes are committed (including an entry in HISTORY.rst).
