@@ -102,7 +102,7 @@ To run a subset of tests::
 {% if cookiecutter.use_pytest == 'y' -%}
     $ pytest tests.test_{{ cookiecutter.py_package }}
 {% else %}
-    $ python -m unittest tests.test_{{ cookiecutter.py_pacakge }}
+    $ python -m unittest tests.test_{{ cookiecutter.py_package }}
 {%- endif %}
 
 ## Deploying

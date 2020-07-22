@@ -1,16 +1,17 @@
 # !/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import setup
+
 setup(
-    name='cookiecutter-pypackage',
+    name='cookiecutter-alba',
     packages=[],
-    version='0.1.0',
-    description='Cookiecutter template for a Python package',
-    author='Audrey Roy Greenfeld',
-    license='BSD',
-    author_email='aroy@alum.mit.edu',
-    url='https://github.com/audreyr/cookiecutter-pypackage',
-    keywords=['cookiecutter', 'template', 'package', ],
+    version='0.0.1',
+    description='Cookiecutter template for ALBA\'s python package',
+    author='ALBA computing team',
+    license="GNU General Public License v3",
+    author_email='computing@cells.es',
+    url='https://github.com/alba-synchrotron/cookiecutter-alba',
+    keywords=['cookiecutter', 'template', 'package', 'alba'],
     python_requires='>=3.5',
     classifiers=[
         'Development Status :: 4 - Beta',
