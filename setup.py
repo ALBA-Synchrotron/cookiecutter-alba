@@ -5,7 +5,7 @@ from setuptools import setup
 setup(
     name='cookiecutter-alba',
     packages=[],
-    version='0.0.1',
+    version='0.1.0',
     description='Cookiecutter template for ALBA\'s python package',
     author='ALBA computing team',
     license="GNU General Public License v3",
