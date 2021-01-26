@@ -3,7 +3,7 @@
 Use it to bootstrap an ALBA python software project:
 
 ```console
-$ cookiecutter https://github.com/alba-syncrotron/cookiecutter-alba
+$ cookiecutter https://github.com/alba-synchrotron/cookiecutter-alba
 full_name [ALBA computing team]: ALBA controls team
 email [computing@cells.es]: constrols-software@cells.es
 github_username [alba-synchrotron]: 
